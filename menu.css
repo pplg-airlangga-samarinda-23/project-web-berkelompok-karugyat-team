@@ -1,0 +1,552 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: white;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+nav {
+    position: absolute;
+    top: 15%;
+    left: 48.7%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(219, 200, 200);
+    border-radius: 5px;
+    margin: 20px 20px 20px 20px;
+    padding: 5px;
+    width: 80%;
+    
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+nav ul li {
+    margin: 0 200px;
+}
+
+nav ul li a {
+    display: block;
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    text-align: center;
+    padding: 5px 10px;
+}
+
+nav ul li a:hover {
+    background-color: rgb(190, 136, 154);
+    color: white;
+    border-radius: 5px;
+    transition: all .4s;
+}
+
+.logo {
+    position: absolute;
+    top: -60px;
+    left: -230px;
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+}
+
+.Mmakan1 {
+    width: 100%;
+    height: 615.4px;
+    margin-top: 9%;
+    margin-left: 0%;
+}
+
+.logofb {
+    position: absolute;
+    top: 2px;
+    left: 520px;
+    border-radius: 50%;
+    height: 35px;
+    width: 35px;
+}
+
+.logoig {
+    position: absolute;
+    top: 2px;
+    left: 560px;
+    border-radius: 50%;
+    height: 35px;
+    width: 35px;
+}
+
+.logoyt {
+    position: absolute;
+    top: 2px;
+    left: 600px;
+    border-radius: 50%;
+    height: 35px;
+    width: 35px;
+}
+
+.search {
+    position: absolute;
+    width: 510px;   
+    height: 40px;
+    left: 500px;
+    border-radius: 50px;
+    top: 40px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+form.example input[type=text] {
+    position: absolute;
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid rgb(163, 131, 131);
+    left: 0.1%;
+    width: 100%;
+    background: rgb(223, 208, 208);
+    border-radius: 50px;
+}
+
+.menu1 {
+    position: absolute;
+    max-width: 12em;
+    background-color: #ececec;
+    padding: 1em;
+    box-shadow: 6px 5px 5px #e1e1e1;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 23%;
+}
+
+.menu1 img{
+    max-width: 100%;
+}
+
+.menu1 h4 {
+    font-size: 1.3em;
+    margin: 0.5em 0;
+}
+
+.menu1 div {
+    font-size: 1.2em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu1 button {
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    font-size: 1em;
+}
+
+.menu1:hover {
+    background-color: rgb(219, 200, 200);
+    color: #fff;
+    transition: all .4s;
+}
+
+.menu1:hover button {
+    color: #000;
+    background-color: #fff;
+}
+
+@media screen and (max-width: 576px) {
+    .menu1 {
+      font-size: 0.9em;
+    }
+  }
+
+.menu2 {
+    position: absolute;
+    max-width: 12em;
+    background-color: #ececec;
+    padding: 1em;
+    box-shadow: 6px 5px 5px #e1e1e1;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 23%;
+    left: 33%;
+}
+
+.menu2 img{
+    max-width: 100%;
+}
+
+.menu2 h4 {
+    font-size: 1.3em;
+    margin: 0.5em 0;
+}
+
+.menu2 div {
+    font-size: 1.2em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu2 button {
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    font-size: 1em;
+}
+
+.menu2:hover {
+    background-color: rgb(219, 200, 200);
+    color: #fff;
+    transition: all .4s;
+}
+
+.menu2:hover button {
+    color: #000;
+    background-color: #fff;
+}
+
+@media screen and (max-width: 576px) {
+    .menu2 {
+      font-size: 0.9em;
+    }
+  }
+
+.menu3 {
+    position: absolute;
+    max-width: 12em;
+    background-color: #ececec;
+    padding: 1em;
+    box-shadow: 6px 5px 5px #e1e1e1;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 23%;
+    left: 55%;
+}
+
+.menu3 img{
+    max-width: 100%;
+}
+
+.menu3 h4 {
+    font-size: 1.3em;
+    margin: 0.5em 0;
+}
+
+.menu3 div {
+    font-size: 1.2em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu3 button {
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    font-size: 1em;
+}
+
+.menu3:hover {
+    background-color: rgb(219, 200, 200);
+    color: #fff;
+    transition: all .4s;
+}
+
+.menu3:hover button {
+    color: #000;
+    background-color: #fff;
+}
+
+@media screen and (max-width: 576px) {
+    .menu3 {
+      font-size: 0.9em;
+    }
+  }
+
+.menu4 {
+    position: absolute;
+    max-width: 12em;
+    background-color: #ececec;
+    padding: 1em;
+    box-shadow: 6px 5px 5px #e1e1e1;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 23%;
+    left: 77.3%;
+}
+
+.menu4 img{
+    max-width: 100%;
+}
+
+.menu4 h4 {
+    font-size: 1.3em;
+    margin: 0.5em 0;
+}
+
+.menu4 div {
+    font-size: 1.2em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu4 button {
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    font-size: 1em;
+}
+
+.menu4:hover {
+    background-color: rgb(219, 200, 200);
+    color: #fff;
+    transition: all .4s;
+}
+
+.menu4:hover button {
+    color: #000;
+    background-color: #fff;
+}
+
+@media screen and (max-width: 576px) {
+    .menu4 {
+      font-size: 0.9em;
+    }
+  }
+
+.menu5 {
+    position: absolute;
+    max-width: 12em;
+    background-color: #ececec;
+    padding: 1em;
+    box-shadow: 6px 5px 5px #e1e1e1;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 67%;
+    
+}
+
+.menu5 img{
+    max-width: 100%;
+}
+
+.menu5 h4 {
+    font-size: 1.3em;
+    margin: 0.5em 0;
+}
+
+.menu5 div {
+    font-size: 1.2em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu5 button {
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    font-size: 1em;
+}
+
+.menu5:hover {
+    background-color: rgb(219, 200, 200);
+    color: #fff;
+    transition: all .4s;
+}
+
+.menu5:hover button {
+    color: #000;
+    background-color: #fff;
+}
+
+@media screen and (max-width: 576px) {
+    .menu5 {
+      font-size: 0.9em;
+    }
+  }
+
+.menu6 {
+    position: absolute;
+    max-width: 12em;
+    background-color: #ececec;
+    padding: 1em;
+    box-shadow: 6px 5px 5px #e1e1e1;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 67%;
+    left: 33%;
+    
+}
+
+.menu6 img{
+    max-width: 100%;
+}
+
+.menu6 h4 {
+    font-size: 1.3em;
+    margin: 0.5em 0;
+}
+
+.menu6 div {
+    font-size: 1.2em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu6 button {
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    font-size: 1em;
+}
+
+.menu6:hover {
+    background-color: rgb(219, 200, 200);
+    color: #fff;
+    transition: all .4s;
+}
+
+.menu6:hover button {
+    color: #000;
+    background-color: #fff;
+}
+
+@media screen and (max-width: 576px) {
+    .menu6 {
+      font-size: 0.9em;
+    }
+  }
+
+.menu7 {
+    position: absolute;
+    max-width: 12em;
+    background-color: #ececec;
+    padding: 1em;
+    box-shadow: 6px 5px 5px #e1e1e1;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 67%;
+    left: 55%;
+    
+}
+
+.menu7 img{
+    max-width: 100%;
+}
+
+.menu7 h4 {
+    font-size: 1.3em;
+    margin: 0.5em 0;
+}
+
+.menu7 div {
+    font-size: 1.2em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu7 button {
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    font-size: 1em;
+}
+
+.menu7:hover {
+    background-color: rgb(219, 200, 200);
+    color: #fff;
+    transition: all .4s;
+}
+
+.menu7:hover button {
+    color: #000;
+    background-color: #fff;
+}
+
+@media screen and (max-width: 576px) {
+    .menu7 {
+      font-size: 0.9em;
+    }
+  }
+
+.menu8 {
+    position: absolute;
+    max-width: 12em;
+    background-color: #ececec;
+    padding: 1em;
+    box-shadow: 6px 5px 5px #e1e1e1;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 67%;
+    left: 77%;
+}
+
+.menu8 img{
+    max-width: 100%;
+}
+
+.menu8 h4 {
+    font-size: 1.3em;
+    margin: 0.5em 0;
+}
+
+.menu8 div {
+    font-size: 1.2em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu8 button {
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    font-size: 1em;
+}
+
+.menu8:hover {
+    background-color: rgb(219, 200, 200);
+    color: #fff;
+    transition: all .4s;
+}
+
+.menu8:hover button {
+    color: #000;
+    background-color: #fff;
+}
+
+@media screen and (max-width: 576px) {
+    .menu8 {
+      font-size: 0.9em;
+    }
+  }
